@@ -1,0 +1,30 @@
+[project]
+name = "zmp"
+version = "0.1.0"
+description = "Портативное tui приложение для установки модификаций на Zapret"
+authors = [
+    {name = "peshk0v",email = "peshoff@proton.me"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "zmp", from = "src"}]
+include = ["src/zmp/data/*"]
+
+[tool.poetry.scripts]
+zmp = "zmp.main:cli"
+
+[tool.poetry.dependencies]
+python = "^3.14"
+rich = "^13.7.0"
+httpx = "^0.27.0"
+
+[tool.poetry.group.dev.dependencies]
+nuitka = "^2.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,4 @@
+{
+    "Flowseal": {"targets": ["bin", "lists", "utils"], "lists": "lists", "bats": "/"},
+    "Sergeydigl3": {"targets": ["src", "custom-strategies", "user-lists", "zapret-latest"], "lists": "user-lists", "bats": "custom-strategies"}
+}

@@ -15,7 +15,7 @@ by **peshk0v**
 
 ### Windows
 
-1. Скачай `zmp.bat`
+1. Скачай `zmp.bat` из [последнего релиза](https://github.com/peshk0v/Zapret-Mods-Patcher/releases/latest).
 2. Положи его в папку с Zapret
 3. Перетащи ZIP-архив мода на `zmp.bat`
 4. Готово!
